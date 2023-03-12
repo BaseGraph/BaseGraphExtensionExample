@@ -12,5 +12,5 @@ target_link_libraries(example BaseGraph::core)
 
 # Place extension target to export at cmake install
 list(APPEND EXPORTED_TARGETS example)
-# Write targets to project CMakeLists.txt
+# Update targets to project's CMakeLists.txt
 set(EXPORTED_TARGETS ${EXPORTED_TARGETS} PARENT_SCOPE)
