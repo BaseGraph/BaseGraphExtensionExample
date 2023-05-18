@@ -11,6 +11,12 @@ if (BUILD_TESTS)
 else()
     set(CXX_STANDARD 11)
 endif()
+set(CXX_STANDARD_REQUIRED)
+set(CMAKE_CXX_EXTENSIONS OFF)
+if (APPLE)
+    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++${CXX_STANDARD} -stdlib=libc++")
+endif()
+
 
 find_package(BaseGraph REQUIRED)
 

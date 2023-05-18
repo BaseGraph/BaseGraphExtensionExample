@@ -1,4 +1,4 @@
-# BaseGraph - Exemple extension
+# BaseGraph - Extension example
 
 This project implements our suggested way to setup a [BaseGraph] extension. It
 complements the
@@ -8,7 +8,7 @@ complements the
 
 Clone this repository
 ```
-git clone https://github.com/SILIZ4/BaseGraphExtensionExample.git
+git clone https://github.com/BaseGraph/BaseGraphExample.git
 ```
 
 ### C++ library
@@ -28,10 +28,11 @@ location (as opposed to onto the system), but this path must be set in the
 ```
 cmake -DCMAKE_PREFIX_PATH="/some/path" -B build
 ```
-to allow CMake to find the package.
+to allow CMake to find the package from another project.
 
-In another project, use
+In a different project, use
 ```
+find_package(BaseGraph)
 find_package(BaseGraphExample)
 ...
 target_link_libraries(<TARGET> BaseGraph::example)
@@ -63,4 +64,4 @@ import basegraph
 graph = basegraph.example.create_house_graph()
 ```
 
-[BaseGraph]: https://github.com/antoineallard/base_graph
+[BaseGraph]: https://github.com/BaseGraph/BaseGraph

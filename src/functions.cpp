@@ -1,5 +1,5 @@
 #include "BaseGraph/extensions/example/functions.h"
-#include <BaseGraph/undirectedgraph.h>
+#include <BaseGraph/undirected_graph.hpp>
 
 
 namespace BaseGraph { namespace example {

@@ -1,6 +1,7 @@
 #include <list>
 
 #include "gtest/gtest.h"
+#include "BaseGraph/types.h"
 #include "BaseGraph/extensions/example/functions.h"
 
 

@@ -6,7 +6,7 @@ set_target_properties(example PROPERTIES
 )
 target_include_directories(example PUBLIC
     "$<BUILD_INTERFACE:${PROJECT_SOURCE_DIR}/include>"
-    "$<INSTALL_INTERFACE:${CMAKE_INSTALL_INCLUDEDIR}>" # Required for cmake install
+    "$<INSTALL_INTERFACE:include>" # Required for cmake install
 )
 target_link_libraries(example BaseGraph::core)
 
