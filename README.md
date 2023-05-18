@@ -1,5 +1,8 @@
 # BaseGraph - Extension example
 
+[![C++ build](https://github.com/BaseGraph/BaseGraphExtensionExample/actions/workflows/build_cpp.yml/badge.svg)](https://github.com/BaseGraph/BaseGraphExtensionExample/actions/workflows/build_cpp.yml)
+[![Python build](https://github.com/BaseGraph/BaseGraphExtensionExample/actions/workflows/python_build.yml/badge.svg)](https://github.com/BaseGraph/BaseGraph/actions/workflows/python_build.yml)
+
 This project implements our suggested way to setup a [BaseGraph] extension. It
 complements the
 [documentation](https://base-graph.readthedocs.io/en/latest/extensions.html).
